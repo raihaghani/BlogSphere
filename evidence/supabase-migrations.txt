@@ -1,0 +1,7 @@
+Supabase verification, 25 October 2026 (Asia/Karachi)
+Command: .venv/Scripts/python.exe scripts/connect_supabase.py
+Observed exit code: 0
+PASS: psycopg connected to PostgreSQL over SSL; SELECT 1 succeeded.
+PASS: all Django migrations applied; no pending migrations.
+PASS: Reader and Author roles initialized.
+No credentials, hostnames, user identities, or connection strings are included here.

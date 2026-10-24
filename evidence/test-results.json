@@ -1,0 +1,197 @@
+[
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_admin_permissions",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_api_anonymous_and_reader_create_denied",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_api_author_ignores_forged_identity",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_api_delete_and_missing_resource",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_api_nonowner_write_denied",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_api_owner_patch_draft_retry",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_api_owner_publish_unpublish",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_author_cannot_access_admin",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_author_dashboard_is_private",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_category_filter",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_category_protected",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_comment_authenticated_and_assigned",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_comment_boundaries",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_comments_on_draft_and_anonymous_denied",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_csrf_web_and_session_api",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_drafts_hidden_everywhere",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_duplicate_category_slug",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_duplicate_registration",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_invalid_category_and_status",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_invalid_login",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_login_and_safe_redirect",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_logout_requires_post",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_pagination_keeps_filters",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_password_confirmation",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_publish_retry_and_unpublish",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_published_detail_and_escaped_content",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_reader_dashboard_denied",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_registration_reader_and_password_hash",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_roles_idempotent",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_search_all_fields",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_staff_not_unrestricted",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_title_and_content_boundaries",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_unique_stable_slugs",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_web_comment",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_web_create_draft_and_publish",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_web_delete_confirmation_and_cascade",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_web_edit_owner",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_platform.PlatformTests.test_web_nonowner_cannot_edit_delete_publish",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  },
+  {
+    "test": "blog.tests.test_browser.BrowserSmokeTests.test_complete_author_and_reader_journey",
+    "status": "Pass",
+    "actual": "All assertions passed."
+  }
+]

@@ -1,0 +1,5 @@
+PASS: PostgreSQL User/Category/Post/Comment relationships and writes.
+PASS: PostgreSQL publication retry, preserved timestamp, and draft filtering.
+PASS: Referenced category deletion protected.
+PASS: Post deletion cascades its comments.
+PASS: Verification transaction rolled back; no smoke-test accounts/content persisted.

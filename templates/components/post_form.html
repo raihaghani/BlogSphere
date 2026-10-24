@@ -1,0 +1,7 @@
+{% include 'components/form.html' with form=form.editor_fields %}
+{% if form.non_field_errors %}
+<div role="alert" class="mb-5 rounded-lg bg-red-50 p-4 text-red-800">{{ form.non_field_errors }}</div>
+{% endif %}
+{% for error in form.status.errors %}
+<p role="alert" class="mb-4 text-sm text-red-700">{{ error }}</p>
+{% endfor %}
